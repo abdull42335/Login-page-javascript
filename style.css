@@ -1,7 +1,43 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  /* height: 100vh; */
+  background-image: url(./backgorund-image.jpg);
+  background-size: cover;
+}
+
+.container {
+  border: 1px solid rgb(244, 244, 244);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 19%;
+  margin: 0px auto;
+  height: 343px;
+  margin-top: 92px;
+}
+.container h2{
+    color: white;
+}
+.container form {
+  padding: 12px;
+}
+.container input {
+  border-radius: 4px;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 14px;
+}
+.container span {
+  padding: 7px 34px;
+  border-radius: 5px;
+  background-color: blanchedalmond;
 }
