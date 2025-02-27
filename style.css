@@ -30,6 +30,10 @@ body {
   height: 378px;
   margin-top: 92px;
   border-radius: 7px;
+  transition: all 0.3s ease;
+}
+.container:hover{
+  box-shadow:  0 0 12px rgb(147, 23, 23);
 }
 
 .container h2{
@@ -57,6 +61,9 @@ body {
   background-color: #635c5c91;
   color: #b4b3af;
   font-weight: 600;
+}
+.container button:hover{
+  background-color: #984c15;
 }
 
 .messagebox{
