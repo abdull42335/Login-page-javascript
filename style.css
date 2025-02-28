@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
 
 * {
   padding: 0px;
@@ -9,7 +7,6 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "Orbitron", serif;
-
 }
 body {
   /* height: 100vh; */
@@ -20,8 +17,7 @@ body {
 .container {
   background-color: #2b1e1e80;
   box-shadow: 0 0 12px #734b4b;
-  display: flex
-;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -32,14 +28,13 @@ body {
   border-radius: 7px;
   transition: all 0.3s ease;
 }
-.container:hover{
-  box-shadow:  0 0 12px rgb(147, 23, 23);
+.container:hover {
+  box-shadow: 0 0 12px rgb(147, 23, 23);
 }
 
-.container h2{
+.container h2 {
   color: white;
 }
-
 
 .container form {
   padding: 12px;
@@ -51,7 +46,7 @@ body {
   padding: 10px;
   width: 100%;
   margin-top: 14px;
-  background-color:#fbfbfb1f;
+  background-color: #fbfbfb1f;
 }
 .container button {
   margin-left: 111px;
@@ -62,11 +57,11 @@ body {
   color: #b4b3af;
   font-weight: 600;
 }
-.container button:hover{
+.container button:hover {
   background-color: #984c15;
 }
 
-.messagebox{
+.messagebox {
   color: white;
   text-align: center;
   font-size: 34px;
