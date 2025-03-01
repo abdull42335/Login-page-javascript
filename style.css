@@ -10,11 +10,13 @@
 }
 @media screen and (max-width: 400px){
 
-  
+  .container{
+   
+  }
   
 }
 body {
-  /* height: 100vh; */
+  
   background-image: url(./backgorund-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
